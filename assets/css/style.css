@@ -67,7 +67,7 @@ h3 {
 
 #profilepic {
   float:left;
-  height:640px;
+  height:calc(100vh - 450px);
 }
 #logo {
   float: left;
@@ -178,6 +178,8 @@ h2 {
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
+  opacity: 0.9;
+  border-radius:50%;
 }
 
 /* contact page */
