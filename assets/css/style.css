@@ -120,10 +120,14 @@ h3, h2 {
 /* main */
 
 #main-container {
+  text-align: justify;
   padding-top: 130px;
   min-height: calc(100vh - 70px);
 }
-
+#profilepic {
+  float:left;
+  height:calc(100vh - 420px);
+}
 .main-section {
   float: left;
   width: 100%;
@@ -133,6 +137,17 @@ h3, h2 {
   background: #fff;
   border: 1px solid #ddd;
 }
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+  opacity: 0.9;
+  border-radius:50%;
+}
+
 
 /* portfolio page */
 
